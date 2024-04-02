@@ -1,0 +1,26 @@
+.pai {
+    background-color: brown;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    flex-wrap: row wrap;
+}
+
+/* @media screen and (max-width: 768px){
+.pai{
+    flex-direction: column;
+}
+} */
+
+.pai div {
+    background-color: white;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}

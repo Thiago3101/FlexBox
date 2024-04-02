@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: firebrick;
+    padding: 40px 80px;
+    text-align: center;
+    color: aliceblue;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background: darkorchid;
+    /* flex-direction: column; */
+}
+.navbar a{
+    color: aliceblue;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background: purple;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+    background: brown;
+}
+
+.card{
+    flex: 32%;
+    background: antiquewhite;
+    height: 350px;
+    margin: 1%;
+}
